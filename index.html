@@ -41,8 +41,7 @@ title: MykeMR-Blog
 
 <ul>
   {% for category in site.categories %}
-    <li><a href="/categorias/{{ category[0] | slugify }}">{{ category[0] }}</a></li>
-  {% endfor %}
+      <li><a href="{{ site.baseurl }}/categorias/{{ category[0] | slugify }}">{{ category[0] }}</a></li>  {% endfor %}
 </ul>
 
 <!-- Google tag (gtag.js) -->
