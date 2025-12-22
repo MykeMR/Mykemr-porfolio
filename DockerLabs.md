@@ -18,8 +18,7 @@ Bienvenido a mi repositorio de **WriteUps** sobre máquinas vulnerables en la pl
 
 <ul id="writeup-list">
   {% for post in site.categories.DockerLabs %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>  {% endfor %}
-</ul>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>  {% endfor %}</ul>
 
 <!-- Estilos personalizados -->
 <style>
