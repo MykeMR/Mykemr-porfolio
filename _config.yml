@@ -5,8 +5,7 @@ author:
   email: ""
   url: "https://mykemr.github.io/"
 
-baseurl: /blog/
-source: .
+baseurl: /blogsource: .
 destination: ./_site
 permalink: /:title
 paginate: 10
