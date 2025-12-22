@@ -5,8 +5,7 @@ author:
   email: ""
   url: "https://mykemr.github.io/"
 
-baseurl: /
-
+baseurl: /blog/
 source: .
 destination: ./_site
 permalink: /:title
